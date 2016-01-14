@@ -1,0 +1,72 @@
+body {
+	background: #333;
+}
+.button {
+	width: 500px;
+	height: 50px;
+	position: relative;
+	display: block;
+	margin: auto;
+	text-align: center;
+	top: 10px;
+
+
+}
+
+.button a {
+	text-decoration: none;
+	color: #666;
+	font-size: 30px;
+	background: #f0f0f0;
+	padding: 5px;
+	border: 1px solid #666;
+	display: inline-block;
+	border-radius: 10px;
+}
+#clear:hover {
+	color: black;
+}
+#rainbow:hover #r {
+	color: red;
+}
+#rainbow:hover #a {
+	color: orange;
+}
+#rainbow:hover #i {
+	color: yellow;
+}
+#rainbow:hover #n {
+	color: green;
+}
+#rainbow:hover #b {
+	color: blue;
+}
+#rainbow:hover #o {
+	color: purple;
+}
+#rainbow:hover #w {
+	color: magenta;
+}
+
+.container {
+	width: 720px;
+	height: 720px;
+	display: block;
+	margin: 50px auto;
+	background: #333;
+	font-size: 0;
+
+}
+
+.grid {
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	
+	
+}
+
+.red {
+	background: #ccff66;
+}
+
